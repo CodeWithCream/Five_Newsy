@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Article } from '../model/article';
 import { HttpService } from './http.service';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root',
@@ -24,7 +25,7 @@ export class DataService {
     return articlesPage.data;
   }
 
-  createArticle(article: Article): Observable<Article> {
-    throw new Error('not implemented');
+  async createArticle(article: Article): Promise<Article> {
+    return await this.httpService.post(`${this.articlesController}`, article);
   }
 }
