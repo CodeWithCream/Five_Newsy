@@ -1,0 +1,52 @@
+{
+    "authors": [
+        {
+            "id": 1,
+            "firstName": "Ana", 
+            "lastName": "Anić",
+            "email": "ana.anic@mail.com",
+            "tagline":"Software Architect",
+            "biography": "Jonathan Allen got his start working on MIS projects for a health clinic in the late 90's, bringing them up from Access and Excel to an enterprise solution by degrees. After spending five years writing automated trading systems for the financial sector, he became a consultant on a variety of projects including the UI for a robotic warehouse, the middle tier for cancer research software, and the big data needs of a major real estate insurance company. In his free time he enjoys studying and writing about martial arts from the 16th century."
+        },
+        {
+            "id": 2,
+            "firstName": "Iva", 
+            "lastName": "Ivić",
+            "email": "iva.ivi@mail.com",
+            "tagline":"Cloud Queue Lead Editor",
+            "biography": "Steef-Jan Wiggers is one of InfoQ's senior cloud editors and works as a Technical Integration Architect at HSO in The Netherlands. His current technical expertise focuses on integration platform implementations, Azure DevOps, and Azure Platform Solution Architectures. Steef-Jan is a board member of the Dutch Azure User Group, a regular speaker at conferences and user groups, writes for InfoQ, and Serverless Notes. Furthermore, Microsoft has recognized him as Microsoft Azure MVP for the past eleven years."
+        }
+    ],
+    "articles": [
+        {
+            "id": 1,
+            "authorId": 1,
+            "title": "What's new in .NET 6",
+            "Text":".NET 6 delivers the final parts of the .NET unification plan that started with .NET 5. .NET 6 unifies the SDK, base libraries, and runtime across mobile, desktop, IoT, and cloud apps. In addition to this unification, the .NET 6 ecosystem offers: .........",
+        },
+        {
+            "id": 2,
+            "authorId": 1,
+            "title": "AWS Introduces the .NET Annotations Lambda Framework in Preview",
+            "text": "Recently, AWS introduced a new framework for writing .NET 6 Lambda functions called Lambda Annotations. This framework was built alongside the .NET 6 managed runtime for Lambda released last February.",
+        },
+        {
+            "id": 3,
+            "authorId": 1,
+            "title": "Minimal APIs, Blazor Improvements, and Tools Updates in ASP.NET Core 6",
+            "Text":"Recently, Microsoft has released .NET 6, which includes a broad set of new features and improvements related to the ASP.NET Core framework, including minimal APIs, Blazor improvements, and tools updates. This release focuses on making ASP.NET a complete framework to build modern and highly scalable web applications.",
+        },
+        {
+            "id": 4,
+            "authorId": 2,
+            "title": ".NET MAUI Preview 9: Borders, Corners, Shadows and Performance Improvements",
+            "Text":"This month's release of the .NET MAUI Preview edition introduces the support for borders, corners, and shadows for the controls and layouts. Besides, the focus of Preview 9 was also on finalizing more than fifty controls and layouts. Preview 9 now ships with a .NET MAUI startup tracing profile which will improve the performance of Android applications startup time.",
+        },
+        {
+            "id": 5,
+            "authorId": 2,
+            "title": ".NET News Roundup: .NET 6, MAUI, EF Core 6, Visual Studio 2022",
+            "text": "It's been a busy week for the .NET community, with the release of new previews for .NET 6 and its related frameworks (including MAUI), along with the first preview of Visual Studio 2022, new Azure SDK libraries, and more. InfoQ examined these and a number of smaller stories in the .NET ecosystem from the week of June 14th, 2021.",
+        }
+    ]
+}
