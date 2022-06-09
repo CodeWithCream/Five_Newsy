@@ -12,4 +12,8 @@ export class DataService {
   getArticles(): Observable<Article[]> {
     return this.http.get<Article[]>('../../assets/data.json');
   }
+
+  createArticle(article: Article): Observable<Article> {
+    throw new Error('not implemented');
+  }
 }

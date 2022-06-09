@@ -1,4 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-    font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
+}
+
+button {
+  border-radius: 5px;
+  border: 0;
+  background-color: #555;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+button:disabled {
+  background-color: #aaa;
+  pointer-events: none;
+}
+
+select {
+  cursor: pointer;
+}
+
+.alert {
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.centered {
+  text-align: center;
 }
