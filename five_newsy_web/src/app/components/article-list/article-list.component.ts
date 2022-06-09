@@ -1,15 +1,22 @@
 import { Component, OnInit } from '@angular/core';
+import { Article } from 'src/app/model/article';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-article-list',
   templateUrl: './article-list.component.html',
-  styleUrls: ['./article-list.component.css']
+  styleUrls: ['./article-list.component.css'],
 })
 export class ArticleListComponent implements OnInit {
+  articles: Article[];
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor(private dataService: DataService) {
+    this.articles = [];
   }
 
+  ngOnInit(): void {
+    this.dataService.getArticles().subscribe((articles) => {
+      this.articles = articles;
+    });
+  }
 }
