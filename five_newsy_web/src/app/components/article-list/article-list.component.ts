@@ -14,9 +14,7 @@ export class ArticleListComponent implements OnInit {
     this.articles = [];
   }
 
-  ngOnInit(): void {
-    this.dataService.getArticles().subscribe((articles) => {
-      this.articles = articles;
-    });
+  async ngOnInit() {
+    this.articles = await this.dataService.getArticles();
   }
 }
