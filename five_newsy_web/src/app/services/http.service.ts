@@ -7,13 +7,16 @@ import { HttpHeaders, HttpClient } from '@angular/common/http';
 })
 export class HttpService {
   readonly apiUrl: string = environment.apiUrl;
+  readonly token: string = environment.userData.token;
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) {
+    this.setToken(this.token);
+  }
 
-  get(url: string): Promise<any> {
+  get(url: string, params: any = {}): Promise<any> {
     return new Promise((resolve, reject) => {
       this.http
-        .get(`${this.apiUrl}${url}`, { headers: this.getHeader() })
+        .get(`${this.apiUrl}${url}`, { headers: this.getHeader(), params })
         .subscribe(
           (response: any) => resolve(response),
           (error) => reject(error)

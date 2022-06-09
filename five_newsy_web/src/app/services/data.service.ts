@@ -13,7 +13,15 @@ export class DataService {
   constructor(private httpService: HttpService) {}
 
   async getArticles(): Promise<Article[]> {
-    return this.httpService.get('${this.articlesController}');
+    var articlesPage = await this.httpService.get(
+      `${this.articlesController}`
+      /*using default pagination filter numbers
+      pagination is not implementes so I pretend it's ok to show no more then 10 items for showcase purposes*/
+    );
+
+    console.log(articlesPage);
+
+    return articlesPage.data;
   }
 
   createArticle(article: Article): Observable<Article> {
