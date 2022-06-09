@@ -1,0 +1,21 @@
+.header {
+  background-color:rosybrown;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+  padding: 15px;
+}
+
+nav {
+  padding-bottom: 10px;
+  padding-right: 50px;
+  text-align: right;
+}
+
+a {
+  padding: 3px;
+  font-size: 40;
+  color: white;
+}
