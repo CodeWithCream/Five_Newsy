@@ -26,7 +26,9 @@ export class NewArticleComponent implements OnInit {
       (success) =>
         this.router.navigate(['success'], {
           state: {
-            article: this.article,
+            message: 'Thank you for creating a new article!',
+            backRoute: '/my-article-list',
+            buttonText: 'Back to my articles',
           },
         }),
       (error) =>

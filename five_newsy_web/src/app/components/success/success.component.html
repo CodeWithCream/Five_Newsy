@@ -1,6 +1,8 @@
 <!-- should be made generic, not hardcoded for creating articles-->
 <div class="centered">
   <h1>Success!</h1>
-  <p>Thank you for creating a new article!</p>
-  <a routerLink="/my-article-list"><button>Back to my articles</button></a>
+  <!-- <p>Thank you for creating a new article!</p>
+  <a routerLink="/my-article-list"><button>Back to my articles</button></a> -->
+  <p>{{this.message}}</p>
+  <a routerLink="{{this.backRoute}}"><button>{{this.buttonText}}</button></a>
 </div>

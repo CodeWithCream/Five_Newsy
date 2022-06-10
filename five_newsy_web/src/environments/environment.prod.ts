@@ -5,5 +5,5 @@ export const environment = {
     token:
       'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYW5hLmFuaWNAbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjRmYThkYzJmLWFmOTItNDE3Yi05NWIxLTgwMWZkOTUwMjQ2MyIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkF1dGhvciIsImV4cCI6MTY1NzM3MTExMiwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzMzYiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo0NDMzNiJ9.giZXDKeuB4dr08Dd6dByz27Oxy4dJFTLEqo-A-0_rHs',
   },
-  apiUrl: 'http://five-newsy.azurewebsites.net/api',
+  apiUrl: 'https://five-newsy.azurewebsites.net/api',
 };
