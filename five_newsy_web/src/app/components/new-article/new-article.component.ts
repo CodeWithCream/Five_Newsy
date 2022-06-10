@@ -22,11 +22,19 @@ export class NewArticleComponent implements OnInit {
   ngOnInit(): void {}
 
   onSubmit() {
-    this.dataService.createArticle(this.article);
-    this.router.navigate(['success'], {
-      state: {
-        article: this.article,
-      },
-    });
+    this.dataService.createArticle(this.article).then(
+      (success) =>
+        this.router.navigate(['success'], {
+          state: {
+            article: this.article,
+          },
+        }),
+      (error) =>
+        this.router.navigate(['error'], {
+          state: {
+            article: this.article,
+          },
+        })
+    );
   }
 }

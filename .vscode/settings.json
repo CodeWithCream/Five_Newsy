@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/e71a2395-fe55-4887-b28e-47f3658d5f0a/microsoft.web/sites/subscriptions/e71a2395-fe55-4887-b28e-47f3658d5f0a/resourceGroups/FiveNewsyResourceGroup/providers/Microsoft.Web/sites/fivenewsyweb",
+    "appService.deploySubpath": "five_newsy_web\\dist"
+}

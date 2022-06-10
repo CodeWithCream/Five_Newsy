@@ -10,6 +10,9 @@ import { ArticleComponent } from './components/article/article.component';
 import { HeaderComponent } from './components/header/header.component';
 import { NewArticleComponent } from './components/new-article/new-article.component';
 import { SuccessComponent } from './components/success/success.component';
+import { MyArticleListComponent } from './components/my-article-list/my-article-list.component';
+import { MyArticleComponent } from './components/my-article/my-article.component';
+import { ErrorComponent } from './components/error/error.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { SuccessComponent } from './components/success/success.component';
     ArticleComponent,
     HeaderComponent,
     NewArticleComponent,
-    SuccessComponent
+    SuccessComponent,
+    MyArticleListComponent,
+    MyArticleComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,

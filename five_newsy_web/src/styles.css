@@ -19,7 +19,7 @@ button {
 }
 
 button:disabled {
-  background-color: #aaa;
+  background-color: #ddd;
   pointer-events: none;
 }
 
@@ -29,10 +29,6 @@ select {
 
 .alert {
   color: red;
-}
-
-.bold {
-  font-weight: bold;
 }
 
 .centered {
