@@ -11,4 +11,4 @@ The application is connected to the backend app running on azure. Backend URL ca
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. 
 
 ## Production 
-Application is published and running on Azure. Navigate to `` and use the app;
+Application is published and running on Azure. Navigate to `https://fivenewsyweb.azurewebsites.net/` and use the app;
